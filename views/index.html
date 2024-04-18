@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Secure Real-Time Multiplayer Game</title>
     <meta
@@ -18,8 +18,12 @@
       <h1>Secure Real Time Multiplayer Game</h1>
     </header>
     <hr style="margin: 25px" />
+    <div id="start-page">
+      <input type="text" id="player-name" placeholder="Enter your name">
+      <button id="start-button">Start Game</button>
+    </div>
     <div class="container">
-      <canvas 
+      <canvas style="display: none;"
         ref="game"
         id="game-window" 
         width="640" 
@@ -27,6 +31,7 @@
       >
       </canvas>
     </div>
-  </body>
   <script src="../public/game.mjs" type="module"></script>
+  </body>
 </html>
+

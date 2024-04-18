@@ -3,11 +3,12 @@ body {
 }
 
 code {
-  background: #d0d0d5;
+  background: #e3e3f0;
 }
 
 canvas {
   margin: auto;
+  background-color: grey;
 }
 
 .container {
