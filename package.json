@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js",
-    "test": "cross-env PORT=3005 mocha --require @babel/register --recursive --exit --ui tdd tests/"
+    "test": "cross-env PORT=3005 mocha --require @babel/register --file test-setup.js --recursive --exit --ui tdd tests/"
   },
   "dependencies": {
     "@babel/core": "^7.7.5",
